@@ -5,10 +5,11 @@ import FloorPlan from '../components/layout/MainContainer/FloorPlan';
 import UserManagement from '../components/layout/MainContainer/UserManagement';
 import OrderDashboard from '../components/layout/MainContainer/OrderDashboard';
 import Menues from '../components/layout/MainContainer/Menues';
-import KitChenDashboard from '../components/layout/MainContainer/KitChenDashboard';
+import KitChenDashboard from '../components/layout/MainContainer/KitchenDashBoard';
 import Reception from '../components/layout/MainContainer/Reception';
 
 import Unauthorized from '../components/Unauthorized';
+// import KitChenDashboard from '../components/layout/MainContainer/KitChenDashboard';
 
 export default function Approutes() {
   const router = createBrowserRouter([
